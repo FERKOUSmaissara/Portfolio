@@ -1,21 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-<title>Mon Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio MIAGE — Accueil</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
+  <header class="banner">
+	<div class="banner-inner">
+	  <div class="banner-title">Portfolio</div>
+	  <nav class="banner-nav" role="navigation" aria-label="Main navigation">
+		<a class="nav-item active" href="index.html">Accueil</a>
+		<a class="nav-item" href="tds.html">TDs</a>
+		<a class="nav-item" href="cours.html">Cours</a>
+		<a class="nav-item" href="projets.html">Projets</a>
+		<a class="nav-item" href="projet-crm.html">Projet CRM</a>
+		<a class="nav-item" href="autres.html">Autres</a>
+	  </nav>
+	</div>
+  </header>
 
-<h1>Compte rendu TP Odoo</h1>
+  <main class="container">
+	<section class="hero">
+	  <h1>Bienvenue sur le Portfolio MIAGE</h1>
+	  <p class="sub">Site professionnel — bleu & blanc, sections claires et accessibles.</p>
+	</section>
 
-<p>
-<a href="Compte_Rendu_TP1_Odoo.pdf">
-Télécharger le TP Odoo
-</a>
+	<section class="grid">
+	  <article class="card">
+		<h2>Travaux demandés</h2>
+		<p>Accèdez aux comptes-rendus et exercices.</p>
+		<p><a class="btn" href="tds.html">Voir les TDs</a></p>
+	  </article>
 
-Télécharger le TP Odoo
-</a>
-</p>
+	  <article class="card">
+		<h2>Supports de cours</h2>
+		<p>Documents et supports pour les enseignements.</p>
+		<p><a class="btn" href="cours.html">Voir les supports</a></p>
+	  </article>
 
+	  <article class="card">
+		<h2>Projets</h2>
+		<p>Projets réalisés durant l'année.</p>
+		<p><a class="btn" href="projets.html">Voir les projets</a></p>
+	  </article>
+	</section>
+  </main>
+
+  <footer class="site-footer">
+	<div class="footer-inner">
+	  <div>© <span id="year"></span> Portfolio MIAGE</div>
+	  <div><a href="mailto:email@exemple.edu">email@exemple.edu</a></div>
+	</div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

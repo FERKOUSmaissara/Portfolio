@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projets — Portfolio MIAGE</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="banner">
+    <div class="banner-inner">
+      <div class="banner-title">Portfolio</div>
+      <nav class="banner-nav" role="navigation" aria-label="Main navigation">
+        <a class="nav-item" href="index.html">Accueil</a>
+        <a class="nav-item" href="tds.html">TDs</a>
+        <a class="nav-item" href="cours.html">Cours</a>
+        <a class="nav-item active" href="projets.html">Projets</a>
+        <a class="nav-item" href="projet-crm.html">Projet CRM</a>
+        <a class="nav-item" href="autres.html">Autres</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Projets</h1>
+    <p>Présentation des projets réalisés.</p>
+    <div class="row">
+      <section class="card">
+        <h2>Projet Example</h2>
+        <p>Description courte du projet et lien vers le dépôt.</p>
+        <p><a class="btn" href="#">Voir le projet</a></p>
+      </section>
+
+      <section class="card">
+        <h2>Projets annexes</h2>
+        <ul>
+          <li><a href="#">Mini-projet 1 (placeholder)</a></li>
+          <li><a href="#">Mini-projet 2 (placeholder)</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> Portfolio MIAGE</div>
+      <div><a href="mailto:email@exemple.edu">email@exemple.edu</a></div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cours — Portfolio MIAGE</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="banner">
+    <div class="banner-inner">
+      <div class="banner-title">Portfolio</div>
+      <nav class="banner-nav" role="navigation" aria-label="Main navigation">
+        <a class="nav-item" href="index.html">Accueil</a>
+        <a class="nav-item" href="tds.html">TDs</a>
+        <a class="nav-item active" href="cours.html">Cours</a>
+        <a class="nav-item" href="projets.html">Projets</a>
+        <a class="nav-item" href="projet-crm.html">Projet CRM</a>
+        <a class="nav-item" href="autres.html">Autres</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Supports de cours</h1>
+    <p>Documents et supports pédagogiques.</p>
+    <div class="row">
+      <section class="card">
+        <h2>Document 1</h2>
+        <p><a href="cours/doc1_etudiant.pdf">Télécharger doc1_etudiant.pdf</a></p>
+      </section>
+
+      <section class="card">
+        <h2>Supports complémentaires</h2>
+        <ul>
+          <li><a href="#">Support 2 (placeholder)</a></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Références</h2>
+        <p>Bibliographie et ressources externes.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> Portfolio MIAGE</div>
+      <div><a href="mailto:email@exemple.edu">email@exemple.edu</a></div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

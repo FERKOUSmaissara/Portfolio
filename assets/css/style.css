@@ -1,0 +1,52 @@
+:root{
+  --bg: #f6fbff;
+  --white: #ffffff;
+  --blue: #0a66d1;
+  --blue-600: #0b5cff;
+  --muted: #6b7280;
+  --maxw: 1100px;
+  --radius: 12px;
+  --gap: 1.2rem;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#0b1220;font-size:16px}
+.container{max-width:var(--maxw);margin:0 auto;padding:2.25rem}
+
+/* Banner */
+.banner{background:linear-gradient(90deg,var(--blue),#174ea6);color:#fff;padding:18px 0;box-shadow:0 10px 30px rgba(10,86,209,0.12)}
+.banner-inner{max-width:var(--maxw);margin:0 auto;padding:0 1rem;display:flex;flex-direction:column;align-items:center;gap:8px}
+.banner-title{font-weight:800;font-size:1.15rem}
+.banner-nav{display:flex;gap:1.6rem;margin-top:6px}
+.banner-nav .nav-item{color:#fff;text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600;opacity:0.95}
+.banner-nav .nav-item.active{background:rgba(255,255,255,0.12)}
+.banner-nav .nav-item:hover{background:rgba(255,255,255,0.06)}
+
+/* Hero */
+.hero{padding:1.2rem 0;text-align:center}
+.hero h1{margin:0;font-size:1.8rem;color:#06223f}
+.hero .sub{color:var(--muted);margin-top:.4rem}
+
+/* Grid & cards */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:1.2rem}
+.card{background:var(--white);padding:1.2rem;border-radius:12px;box-shadow:0 8px 20px rgba(7,34,74,0.04);border:1px solid rgba(11,92,255,0.06)}
+.card h2{margin:0 0 .6rem 0;color:#07345a}
+.btn{display:inline-block;padding:.5rem .9rem;background:var(--blue);color:#fff;border-radius:8px;text-decoration:none;font-weight:700}
+
+/* Footer */
+.site-footer{background:#fff;margin-top:2rem;border-top:1px solid rgba(7,34,74,0.04)}
+.footer-inner{max-width:var(--maxw);margin:0 auto;padding:1rem 1rem;display:flex;justify-content:space-between;align-items:center;color:var(--muted)}
+
+/* Responsive */
+@media (max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.grid{grid-template-columns:1fr}.banner-nav{flex-wrap:wrap;justify-content:center}}
+
+/* Vertical stack layout for section pages */
+.stack{display:flex;flex-direction:column;gap:1.2rem;margin-top:1rem}
+.stack .card{width:100%}
+
+/* Horizontal row layout for section pages */
+.row{display:flex;flex-direction:row;gap:1.2rem;margin-top:1rem;flex-wrap:wrap}
+.row .card{flex:1 1 calc(33.333% - 0.8rem);min-width:220px}
+@media (max-width:980px){.row .card{flex:1 1 calc(50% - 0.8rem)}}
+@media (max-width:640px){.row .card{flex-basis:100%}}
