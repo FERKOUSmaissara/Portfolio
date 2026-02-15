@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cours — Portfolio MIAGE</title>
+  <meta name="description" content="Portfolio de Maissara Ferkous — Étudiante MIAGE, développement, gestion de projets et systèmes d'information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+  <div id="progress-bar"><div id="progress-bar-inner"></div></div>
+
+  <header class="banner">
+    <div class="banner-inner">
+      <a class="banner-title" href="index.html">MF</a>
+      <nav class="banner-nav" role="navigation" aria-label="Main navigation">
+        <a class="nav-item" href="index.html">Accueil</a>
+        <a class="nav-item" href="tds.html">TDs</a>
+        <a class="nav-item active" href="cours.html">Cours</a>
+        <a class="nav-item" href="projets.html">Projets</a>
+        <a class="nav-item" href="projet-crm.html">Projet CRM</a>
+        <a class="nav-item" href="autres.html">Autres</a>
+      </nav>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <nav class="mobile-menu">
+      <a class="nav-item" href="index.html">Accueil</a>
+      <a class="nav-item" href="tds.html">TDs</a>
+      <a class="nav-item active" href="cours.html">Cours</a>
+      <a class="nav-item" href="projets.html">Projets</a>
+      <a class="nav-item" href="projet-crm.html">Projet CRM</a>
+      <a class="nav-item" href="autres.html">Autres</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Supports de Cours</h1>
+      <p>Documents et supports pédagogiques des enseignements suivis en M1 MIAGE.</p>
+    </div>
+
+    <div class="stack">
+      <section class="card">
+        <h2>Communication digitale orientée SI <span class="badge pdf">PDF</span></h2>
+        <p>Cours M1 MIAGE — Intégration de la communication digitale dans le SI, architectures, CRM, ERP, BI et outils de marketing automation.</p>
+        <a class="btn" href="cours/doc1_etudiant.pdf" target="_blank">Télécharger le support →</a>
+      </section>
+
+      <section class="card">
+        <h2>Architecture Logicielle &amp; Design Patterns <span class="badge pdf">PDF</span></h2>
+        <p>Principes de l'architecture logicielle, styles architecturaux (microservices, monolithique) et design patterns fondamentaux.</p>
+        <p><span style="color:var(--muted);font-size:0.85rem;">Support à venir</span></p>
+      </section>
+
+      <section class="card">
+        <h2>Gestion de Projet Agile <span class="badge pdf">PDF</span></h2>
+        <p>Introduction aux méthodes Agiles, focus Scrum et Kanban, comparaison avec les approches traditionnelles.</p>
+        <p><span style="color:var(--muted);font-size:0.85rem;">Support à venir</span></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> Maissara Ferkous — Portfolio MIAGE</div>
+      <div><a href="mailto:f.mayssara@gmail.com">f.mayssara@gmail.com</a></div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
