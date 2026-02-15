@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TDs — Portfolio MIAGE</title>
+  <meta name="description" content="Travaux dirigés et exercices — Maissara Ferkous, M1 MIAGE." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+  <div id="progress-bar"><div id="progress-bar-inner"></div></div>
+
+  <header class="banner">
+    <div class="banner-inner">
+      <a class="banner-title" href="index.html">MF</a>
+      <nav class="banner-nav" role="navigation">
+        <a class="nav-item" href="index.html">Accueil</a>
+        <a class="nav-item active" href="tds.html">TDs</a>
+        <a class="nav-item" href="cours.html">Cours</a>
+        <a class="nav-item" href="projets.html">Projets</a>
+        <a class="nav-item" href="projet-crm.html">Projet CRM</a>
+        <a class="nav-item" href="autres.html">Autres</a>
+      </nav>
+      <div class="hamburger">
+        <span class="line"></span><span class="line"></span><span class="line"></span>
+      </div>
+    </div>
+    <nav class="mobile-menu">
+      <a class="nav-item" href="index.html">Accueil</a>
+      <a class="nav-item active" href="tds.html">TDs</a>
+      <a class="nav-item" href="cours.html">Cours</a>
+      <a class="nav-item" href="projets.html">Projets</a>
+      <a class="nav-item" href="projet-crm.html">Projet CRM</a>
+      <a class="nav-item" href="autres.html">Autres</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Travaux Dirigés</h1>
+      <p>Comptes-rendus et exercices réalisés durant l'année universitaire.</p>
+    </div>
+
+    <div class="row">
+      <section class="card">
+        <h2>📋 Compte-rendu TP1 Odoo</h2>
+        <p>Découverte et prise en main du progiciel Odoo — installation, configuration des modules et premiers flux métiers.</p>
+        <a class="btn" href="travaux/Compte_Rendu_TP1_Odoo.pdf" target="_blank">Télécharger PDF →</a>
+      </section>
+
+      <section class="card">
+        <h2>📐 TD2 — Modélisation UML</h2>
+        <p>Conception de diagrammes de classes, de séquences et de cas d'utilisation pour un système de gestion.</p>
+        <p><span style="color:var(--muted);font-size:0.85rem;">Document à venir</span></p>
+      </section>
+
+      <section class="card">
+        <h2>🗄️ TD3 — Requêtes SQL avancées</h2>
+        <p>Jointures complexes, sous-requêtes, vues et procédures stockées sur une base de données relationnelle.</p>
+        <p><span style="color:var(--muted);font-size:0.85rem;">Document à venir</span></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> Maissara Ferkous — Portfolio MIAGE</div>
+      <div><a href="mailto:f.mayssara@gmail.com">f.mayssara@gmail.com</a></div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

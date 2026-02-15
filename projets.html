@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projets — Portfolio MIAGE</title>
+  <meta name="description" content="Portfolio de Maissara Ferkous — Étudiante MIAGE, développement, gestion de projets et systèmes d'information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+  <div id="progress-bar"><div id="progress-bar-inner"></div></div>
+
+  <header class="banner">
+    <div class="banner-inner">
+      <a class="banner-title" href="index.html">MF</a>
+      <nav class="banner-nav" role="navigation">
+        <a class="nav-item" href="index.html">Accueil</a>
+        <a class="nav-item" href="tds.html">TDs</a>
+        <a class="nav-item" href="cours.html">Cours</a>
+        <a class="nav-item active" href="projets.html">Projets</a>
+        <a class="nav-item" href="projet-crm.html">Projet CRM</a>
+        <a class="nav-item" href="autres.html">Autres</a>
+      </nav>
+      <div class="hamburger">
+        <span class="line"></span><span class="line"></span><span class="line"></span>
+      </div>
+    </div>
+    <nav class="mobile-menu">
+      <a class="nav-item" href="index.html">Accueil</a>
+      <a class="nav-item" href="tds.html">TDs</a>
+      <a class="nav-item" href="cours.html">Cours</a>
+      <a class="nav-item active" href="projets.html">Projets</a>
+      <a class="nav-item" href="projet-crm.html">Projet CRM</a>
+      <a class="nav-item" href="autres.html">Autres</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Projets</h1>
+      <p>Projets réalisés en équipe et en autonomie durant la formation MIAGE.</p>
+    </div>
+
+    <div class="row">
+      <section class="card">
+        <h2>🔧 Projet CRM</h2>
+        <p>Conception et développement d'un système de gestion de la relation client — modélisation, base de données relationnelle et interface web.</p>
+        <div class="skills-badges" style="justify-content:flex-start;margin:0.7rem 0;">
+          <span class="badge">HTML/CSS</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">SQL</span>
+        </div>
+        <a class="btn" href="projet-crm.html">Voir le projet →</a>
+      </section>
+
+      <section class="card">
+        <h2>⚙️ TP Odoo — ERP</h2>
+        <p>Prise en main et configuration du progiciel Odoo pour la gestion des stocks, des ventes et de la comptabilité.</p>
+        <div class="skills-badges" style="justify-content:flex-start;margin:0.7rem 0;">
+          <span class="badge">Odoo</span>
+          <span class="badge">ERP</span>
+          <span class="badge">Gestion métier</span>
+        </div>
+        <a class="btn" href="travaux/Compte_Rendu_TP1_Odoo.pdf" target="_blank">Voir le rapport →</a>
+      </section>
+
+      <section class="card">
+        <h2>🌐 Portfolio MIAGE</h2>
+        <p>Ce portfolio — développé en HTML, CSS et JavaScript vanilla, avec dark mode, animations et design responsive.</p>
+        <div class="skills-badges" style="justify-content:flex-start;margin:0.7rem 0;">
+          <span class="badge">HTML/CSS</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">UI Design</span>
+        </div>
+        <a class="btn" href="index.html">Voir le site →</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> Maissara Ferkous — Portfolio MIAGE</div>
+      <div><a href="mailto:f.mayssara@gmail.com">f.mayssara@gmail.com</a></div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
