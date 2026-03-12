@@ -1,57 +1,90 @@
-# Portfolio Étudiant MIAGE — Maissara Ferkous
+# Portfolio - Maissara Ferkous
 
-Ce dépôt contient le code source de mon portfolio personnel, présentant mon parcours, mes compétences et mes projets en tant qu'étudiante en **MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises)**.
+Presentation:
+Portfolio personnel presentant mon parcours, mes competences et mes projets realises dans le cadre du cursus MIAGE (Methodes Informatiques Appliquees a la Gestion des Entreprises).
 
-Le site est conçu pour être un aperçu moderne et professionnel de mon profil, avec un design sobre et des animations subtiles.
+## Apercu
 
-##  Aperçu
+Description du site:
+Ce portfolio met en avant mes projets academiques et personnels en developpement web et systemes d'information.
 
-![Aperçu du portfolio](https://user-images.githubusercontent.com/votre-id/votre-image.png) <!-- Remplacez par une vraie capture d'écran -->
+## Projets principaux
 
-## ✨ Technologies utilisées
+- CRM SaaS (FerkousFlow CRM)
+- Projets MIAGE
+- Travaux diriges
+- Cours et ressources
 
-Ce projet est construit avec des technologies web fondamentales, sans framework complexe, pour mettre l'accent sur la maîtrise des bases :
+## Technologies utilisees
 
-- **HTML5** : Pour la structure sémantique du contenu.
-- **CSS3** : Pour le style, le design responsive, les animations et le mode sombre.
-- **JavaScript (ES6+)** : Pour l'interactivité, y compris :
-  - Le menu hamburger sur mobile.
-  - L'animation des cartes au défilement (Scroll Reveal).
-  - La barre de progression de lecture.
-- **Google Fonts** : Pour une typographie soignée (`Syne` pour les titres et `DM Sans` pour le texte).
+Frontend:
 
-## 🚀 Lancer le projet localement
+- HTML5
+- CSS3
+- JavaScript
 
-Ce projet est un site statique. Pour le visualiser, vous n'avez pas besoin d'outils de build complexes.
+Outils:
 
-1. **Clonez le dépôt :**
-   ```bash
-   git clone https://github.com/votre-username/votre-repo.git
-   ```
+- Git / GitHub
+- Vercel
+- Google Fonts
 
-2. **Naviguez dans le dossier :**
-   ```bash
-   cd votre-repo
-   ```
+## Fonctionnalites
 
-3. **Ouvrez `index.html` dans votre navigateur.**
+- Design responsive
+- Navigation moderne
+- Animation des cartes au scroll
+- Menu mobile interactif
+- Presentation detaillee des projets
+- Integration d'un projet CRM SaaS
 
-   Pour une meilleure expérience (et pour éviter les problèmes de CORS si vous ajoutez des fonctionnalités plus tard), il est recommandé d'utiliser un petit serveur local. Si vous avez Python installé, vous pouvez lancer :
+## Lancer le projet en local
 
-   ```bash
-   # Pour Python 3
-   python -m http.server
-   ```
-   Le site sera alors accessible à l'adresse `http://localhost:8000`.
+Cloner le depot:
 
-## 📄 Pages
+```bash
+git clone https://github.com/FERKOUSmaissara/Portfolio.git
+```
 
-- **Accueil (`index.html`)** : Présentation générale et liens vers les sections principales.
-- **TDs (`tds.html`)** : Liste des travaux dirigés et exercices.
-- **Cours (`cours.html`)** : Supports de cours et documents pédagogiques.
-- **Projets (`projets.html`)** : Présentation détaillée des projets réalisés.
-- **Autres (`autres.html`)** : Certifications, formations et centres d'intérêt.
+Entrer dans le dossier:
 
----
+```bash
+cd Portfolio
+```
 
-N'hésitez pas à me contacter via [LinkedIn](https://www.linkedin.com/in/maissara-ferkous-b4264b214) ou par email à `f.mayssara@gmail.com`.
+Ouvrir `index.html` dans un navigateur.
+
+Ou utiliser un serveur local:
+
+```bash
+python -m http.server
+```
+
+Puis ouvrir:
+
+`http://localhost:8000`
+
+## Structure du projet
+
+```text
+Portfolio
+|
+|- index.html
+|- projets.html
+|- projet-crm.html
+|- assets/
+|  |- css/
+|  |  |- style.css
+|  |- js/
+|  |  |- main.js
+|  |- images/
+|     |- crm-dashboard.png
+```
+
+## Auteur
+
+Maissara Ferkous
+Etudiante MIAGE
+
+LinkedIn : [Maissara Ferkous](https://www.linkedin.com/in/maissara-ferkous-b4264b214)
+Email : [f.mayssara@gmail.com](mailto:f.mayssara@gmail.com)
