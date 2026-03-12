@@ -206,7 +206,7 @@ Méthodes Informatiques Appliquées à la Gestion des Entreprises
 f.mayssara@gmail.com
 
 💼 LinkedIn :  
-(ajouter votre lien LinkedIn)
+[Maissara Ferkous](https://www.linkedin.com/in/maissara-ferkous-b4264b214)
 
 ---
 
