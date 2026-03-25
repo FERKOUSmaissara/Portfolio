@@ -125,7 +125,7 @@ Portfolio
 ├ projet-crm.html
 ├ tds.html
 ├ cours.html
-├ autres.html
+├ certifications.html
 │
 ├ css/
 │ └ style.css
